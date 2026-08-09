@@ -6,67 +6,39 @@ This demo uses a fictional Microsoft Fake Company created for demonstration purp
 
 ## AI transparency declaration
 
-This repository includes AI-assisted sample content for demonstration purposes. See [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md) for the full AI transparency declaration and artifact provenance table.
+This repository includes AI-assisted and AI-generated fictional sample content for demonstration purposes. See [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md).
 
 ## Scenario overview
 
-This public-safe demo package supports a private Microsoft 365 Copilot delivery for a fictional Microsoft Fake Company named **Contoso Energy Services**. The real customer named in the delivery request is not used in the scenario, sample data, prompts, or artifacts.
+This public-safe demo package supports a 60-minute Microsoft 365 Copilot private delivery using a fictional Microsoft Fake Company named **Contoso Energy Services**. The scenario is energy/public-sector-adjacent and uses realistic but fictional work content for operations, facilities, compliance, finance, grants, and communications teams.
 
-**Industry / audience:** public-sector energy and operations audience, adapted from manufacturing-style training guidance for salaried cross-functional employees.
+## GCC presenter reminder
 
-**Technology focus:** Microsoft 365 Copilot - Excel.
-
-**Delivery folder:** [4018-excel](4018-excel/README.md)
-
-## Presenter reminder for GCC delivery
-
-Do **not** show these steps inside a GCC tenant where Microsoft 365 Copilot is unavailable. Use the scripts as talk track, screenshots/placeholders, or recorded fallback guidance. Call out verbally what the experience would look like in a commercial Copilot-enabled tenant, and avoid showing features learners do not have.
-
-## Constraints followed
-
-- No web grounding.
-- No agents or researcher-style agents.
-- No YouTube dependency.
-- No customer confidential information or real customer data.
-- The presenter provides the PPTX separately; this repo includes only simple supporting files.
+Do **not** show live Copilot in a GCC tenant where Microsoft 365 Copilot is unavailable. Use the included Word, Excel, and PowerPoint files to explain what the experience would look like in a Copilot-enabled commercial tenant. Do not show web grounding, agents, researcher-style agents, YouTube, or features learners do not have.
 
 ## Repository contents
 
 | Path | Purpose |
 |---|---|
-| [DEMO-INSTRUCTIONS.md](DEMO-INSTRUCTIONS.md) | Complete presenter script and talk track |
+| [DEMO-INSTRUCTIONS.md](DEMO-INSTRUCTIONS.md) | 60-minute presenter script in Markdown |
+| [DEMO-INSTRUCTIONS.docx](DEMO-INSTRUCTIONS.docx) | 60-minute presenter script in Word format |
+| [artifacts/work-documents/excel-industry-brief.docx](artifacts/work-documents/excel-industry-brief.docx) | Industry-specific Word source document |
+| [artifacts/work-documents/excel-readiness-workbook.xlsx](artifacts/work-documents/excel-readiness-workbook.xlsx) | Industry-specific Excel workbook |
+| [artifacts/work-documents/excel-executive-briefing.pptx](artifacts/work-documents/excel-executive-briefing.pptx) | Industry-specific PowerPoint source deck |
 | [4018-excel/README.md](4018-excel/README.md) | Delivery-specific run sheet |
 | [prompts/excel-prompts.md](prompts/excel-prompts.md) | Copy/paste prompt set |
-| [sample-data/production-data.csv](sample-data/production-data.csv) | Fictional sample data or notes |
-| [artifacts/PPTX-DROP-INSTRUCTIONS.md](artifacts/PPTX-DROP-INSTRUCTIONS.md) | Where to place the presenter-supplied PPTX |
-| [setup/environment-checklist.md](setup/environment-checklist.md) | Tenant-safe setup checklist |
 | [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md) | AI transparency declaration |
 | [manifest.json](manifest.json) | Artifact manifest and provenance metadata |
 
-## Demo flow summary
+## GitHub download links
 
-1. Frame the scenario for Contoso Energy Services and the GCC limitation.
-2. Explain what the Excel Copilot experience would look like in a Copilot-enabled commercial tenant.
-3. Use the provided PPTX and this repository's simple sample content as screen-share-friendly support.
-4. Show prompts and expected outcomes without relying on web grounding, agents, or external sites.
-5. Close with adoption tips and a reminder to validate feature availability in the learner tenant.
-
-## Setup
-
-1. Add the presenter-provided PPTX to rtifacts/ if you want it colocated with the demo files.
-2. Review setup/environment-checklist.md before the session.
-3. Use DEMO-INSTRUCTIONS.md as the presenter guide.
+- [Demo instructions - Markdown](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/DEMO-INSTRUCTIONS.md)
+- [Demo instructions - Word](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/DEMO-INSTRUCTIONS.docx)
+- [Word source brief](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/work-documents/excel-industry-brief.docx)
+- [Excel readiness workbook](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/work-documents/excel-readiness-workbook.xlsx)
+- [PowerPoint executive briefing](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/work-documents/excel-executive-briefing.pptx)
+- [Manifest](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/manifest.json)
 
 ## License
 
 MIT License. See [LICENSE](LICENSE).
-
-## GitHub download links
-
-- [README](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/README.md)
-- [Demo instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/DEMO-INSTRUCTIONS.md)
-- [Manifest](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/manifest.json)
-- [AI content declaration](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/AI-CONTENT-DECLARATION.md)
-- [PPTX drop instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/PPTX-DROP-INSTRUCTIONS.md)
-- [Environment checklist](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/setup/environment-checklist.md)
-

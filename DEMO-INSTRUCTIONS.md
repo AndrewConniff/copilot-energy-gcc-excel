@@ -6,92 +6,63 @@ This demo uses a fictional Microsoft Fake Company created for demonstration purp
 
 ## AI transparency declaration
 
-This demo package includes AI-assisted sample content created for demonstration purposes. See [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md).
+This demo package includes AI-assisted and AI-generated fictional sample content created for demonstration purposes. See [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md).
 
 ## Demo objective
 
-Help learners understand practical Microsoft 365 Copilot value for **Excel** using a fictional Contoso Energy Services scenario while respecting GCC limitations and the delivery document constraints.
+Deliver a full 60-minute, industry-specific Microsoft 365 Copilot demo for **Excel** using fictional Contoso Energy Services work artifacts: Word brief, Excel readiness workbook, and PowerPoint executive briefing.
 
 ## Target audience
 
-Cross-functional salaried employees, including operations, engineering, IT, finance, and HR stakeholders.
+Cross-functional salaried employees in an energy/public-sector-adjacent organization, including operations, engineering, IT, finance, compliance, grants, HR, and communications stakeholders.
 
-## Persona setup
+## Required artifacts for this demo
 
-- **Presenter:** Microsoft trainer delivering a private virtual session.
-- **Fictional user:** Jordan Lee, Operations Program Manager at Contoso Energy Services.
-- **Fictional business context:** Jordan coordinates operational updates, internal communications, and executive-ready summaries across energy program teams.
+- [Word source brief](artifacts/work-documents/excel-industry-brief.docx)
+- [Excel readiness workbook](artifacts/work-documents/excel-readiness-workbook.xlsx)
+- [PowerPoint executive briefing](artifacts/work-documents/excel-executive-briefing.pptx)
+- [Prompt library](prompts/excel-prompts.md)
+- [Delivery folder](4018-excel/README.md)
 
-## Prerequisites and environment assumptions
+## Environment assumptions and GCC limitation
 
-- Presenter-supplied PPTX is available separately.
-- Demo does not require agents, researcher-style capabilities, web grounding, YouTube, or live external data.
-- GCC tenant may not have Microsoft 365 Copilot available. If Copilot is unavailable, narrate the experience and use the included prompts, sample data, and PPTX rather than attempting a live Copilot demo.
+Do not demonstrate live Copilot in a GCC tenant if Copilot is unavailable. Use these artifacts and the presenter-provided PPTX to narrate what the Copilot-enabled commercial tenant experience would look like. Do not show features learners do not have. This demo does not require web grounding, agents, researcher-style agents, YouTube, or external data.
 
-## Timing guidance
+## 60-minute run of show
 
-| Segment | Time | Activity |
-|---|---:|---|
-| Set context | 5 min | Explain fictional scenario, Public classification, and GCC limitation |
-| Concept walkthrough | 10 min | Show where Excel Copilot would appear in a Copilot-enabled tenant |
-| Prompt walkthrough | 20 min | Use prompts/excel-prompts.md and sample data to explain expected results |
-| Adoption guidance | 10 min | Discuss safe prompting, review, and validation habits |
-| Q&A | 5 min | Redirect unsupported platform or agent questions back to Copilot scope |
+| Time | Segment | Presenter action | Artifact |
+|---:|---|---|---|
+| 0-5 | Set context | Explain fictional scenario, Public classification, and GCC limitation. | Presenter PPTX |
+| 5-12 | Work artifact tour | Open the Word, Excel, and PowerPoint sample documents and explain the business context. | Work documents |
+| 12-22 | Prompting pattern | Show how to ask Copilot to summarize, transform, analyze, and critique work content. | Prompt library |
+| 22-35 | Main Excel workflow | Walk through Analyze operational metrics, identify trends, and turn workbook insights into decisions. | App-specific artifact |
+| 35-45 | Cross-app handoff | Explain how output from one app can become input for the next reviewed work product. | Word, Excel, PowerPoint |
+| 45-52 | Human review | Identify what must be checked before sharing generated content. | Review checklist |
+| 52-58 | GCC-safe fallback | Narrate the commercial Copilot experience without showing unavailable GCC features. | Presenter PPTX |
+| 58-60 | Close | Summarize adoption guidance and Q&A handoff. | All artifacts |
 
-## Step-by-step demo script
+## Demo script
 
-1. Open the presenter-supplied PPTX and state: "This demo uses fictional Contoso Energy Services content and is designed to avoid web grounding, agents, and external data."
-2. Remind the audience: "In this GCC environment, Copilot may not be available. I will call out what this would look like in a Copilot-enabled tenant and avoid showing features that are not enabled here."
-3. Introduce the Excel scenario: Analyze fictional production and support-function data, summarize trends, and generate insights.
-4. Open sample-data/production-data.csv or the matching notes in the PPTX.
-5. Read the primary prompt from prompts/excel-prompts.md.
-6. Explain the expected Copilot behavior in a commercial Copilot-enabled tenant:
-   - Copilot grounds on the selected mailbox, document, workbook, or presentation content available to the signed-in user.
-   - Copilot should produce a draft or summary that the user reviews before sharing.
-   - Copilot does not replace business judgment or compliance review.
-7. Show the expected outcome in the PPTX or narrate the result if no live Copilot is available.
-8. Close by emphasizing that feature availability must be confirmed in the learner tenant.
+1. State that all content is fictional and Public.
+2. Open the Word source brief and identify the operational readiness problem.
+3. Open the Excel workbook and point out risk scores, owners, workstreams, and suggested Copilot prompts.
+4. Open the PowerPoint briefing and explain how it can be used as source material or an output target.
+5. Use the prompt library to demonstrate or narrate the Excel workflow.
+6. Call out that in GCC, Copilot may not be available; do not click into or imply unavailable functionality.
+7. Explain expected outputs: summarized brief, risk prioritization, draft response, SOP, workbook insight, or executive slide narrative depending on the topic.
+8. Close with a human-review checklist: facts, compliance, tone, missing context, sensitivity, and feature availability.
 
 ## Suggested talk track
 
-"For this Excel example, imagine Jordan at Contoso Energy Services has content already available in Microsoft 365. In a Copilot-enabled commercial tenant, Jordan would open the relevant Microsoft 365 app, select the content, and ask Copilot to help summarize, draft, analyze, or transform it. In this GCC tenant, we may not have Copilot enabled, so I am using a public-safe fictional scenario to show the workflow concept without exposing unavailable features."
+"For this Excel demo, I am using fictional Contoso Energy Services work documents that resemble the kind of operational content an energy organization might already have in Microsoft 365. In a Copilot-enabled commercial tenant, I would ground the prompt in the open file or selected work content. In this GCC environment, if Copilot is not enabled, I will describe what the interaction would look like and avoid showing features that are not available."
 
-## Primary prompt
+## Expected outcomes
 
-`	ext
-Analyze this worksheet, identify trends or anomalies, and suggest three questions I should ask the operations team.
-`
-
-## Expected outcomes and validation points
-
-- Output is clearly based on the provided fictional content, not web results.
-- Output includes useful structure, next steps, or insights appropriate to Excel.
-- Presenter reminds learners to review, edit, and validate before using any generated content.
-- Presenter does not imply GCC feature availability that has not been confirmed.
-
-## Troubleshooting tips
-
-- If Copilot is unavailable, use the PPTX and describe the expected interaction.
-- If a learner asks about agents or researcher-style experiences, explain that they are out of scope for this delivery.
-- If a prompt appears to need web content, revise it to use only the provided file, email, worksheet, document, or presentation content.
-
-## Supporting files
-
-- [Delivery run sheet](4018-excel/README.md)
-- [Prompt library](prompts/excel-prompts.md)
-- [Sample data](sample-data/production-data.csv)
-- [PPTX drop instructions](artifacts/PPTX-DROP-INSTRUCTIONS.md)
-- [Environment checklist](setup/environment-checklist.md)
+- Learners understand a complete 60-minute workflow, not a single prompt.
+- The demo uses multiple realistic work artifacts, not one small CSV.
+- The experience stays tenant-safe and avoids web grounding, agents, researcher-style capabilities, and YouTube.
+- The presenter has enough artifacts to show app-specific and cross-app value.
 
 ## Cleanup
 
-Remove any local copies of presenter-provided PPTX files if they contain non-public delivery materials. Keep this repository public-safe only.
-
-## GitHub download links
-
-- [Repository README](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/README.md)
-- [Manifest](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/manifest.json)
-- [AI content declaration](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/AI-CONTENT-DECLARATION.md)
-- [PPTX drop instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/PPTX-DROP-INSTRUCTIONS.md)
-- [Environment checklist](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/setup/environment-checklist.md)
-
+Remove any non-public presenter files after delivery. Keep this repository public-safe.
