@@ -86,3 +86,12 @@ Analyze this worksheet, identify trends or anomalies, and suggest three question
 ## Cleanup
 
 Remove any local copies of presenter-provided PPTX files if they contain non-public delivery materials. Keep this repository public-safe only.
+
+## GitHub download links
+
+- [Repository README](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/README.md)
+- [Manifest](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/manifest.json)
+- [AI content declaration](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/AI-CONTENT-DECLARATION.md)
+- [PPTX drop instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/PPTX-DROP-INSTRUCTIONS.md)
+- [Environment checklist](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/setup/environment-checklist.md)
+

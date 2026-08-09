@@ -60,3 +60,13 @@ Do **not** show these steps inside a GCC tenant where Microsoft 365 Copilot is u
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## GitHub download links
+
+- [README](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/README.md)
+- [Demo instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/DEMO-INSTRUCTIONS.md)
+- [Manifest](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/manifest.json)
+- [AI content declaration](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/AI-CONTENT-DECLARATION.md)
+- [PPTX drop instructions](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/artifacts/PPTX-DROP-INSTRUCTIONS.md)
+- [Environment checklist](https://github.com/AndrewConniff/copilot-energy-gcc-excel/blob/main/setup/environment-checklist.md)
+
