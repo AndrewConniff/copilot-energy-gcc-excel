@@ -26,7 +26,6 @@ Do **not** show live Copilot in a GCC tenant where Microsoft 365 Copilot is unav
 | [artifacts/work-documents/excel-readiness-workbook.xlsx](artifacts/work-documents/excel-readiness-workbook.xlsx) | Industry-specific Excel workbook |
 | [artifacts/work-documents/excel-executive-briefing.pptx](artifacts/work-documents/excel-executive-briefing.pptx) | Industry-specific PowerPoint source deck |
 | [4018-excel/README.md](4018-excel/README.md) | Delivery-specific run sheet |
-| [prompts/excel-prompts.md](prompts/excel-prompts.md) | Copy/paste prompt set |
 | [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md) | AI transparency declaration |
 | [manifest.json](manifest.json) | Artifact manifest and provenance metadata |
 

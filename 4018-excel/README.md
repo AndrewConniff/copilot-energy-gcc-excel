@@ -31,3 +31,7 @@ Do not demonstrate live Copilot in a GCC tenant if Copilot is not available. Nar
 - Researcher-style agents.
 - YouTube-based content.
 - Real customer data or internal tenant details.
+
+## Prompt location
+
+The prompts are embedded directly in `../DEMO-INSTRUCTIONS.md` and `../DEMO-INSTRUCTIONS.docx`; no separate prompt file is needed.
